@@ -18,6 +18,8 @@ Pin Configuration:
 •	Pin 6 → Output
 •	Pin 7 → +15V
 •	Pin 4 → −15V
+<img width="1211" height="577" alt="Screenshot 2026-01-26 182002" src="https://github.com/user-attachments/assets/aeface4b-bfb5-499c-b395-5c3a5d3c672c" />
+
 ## Theory
 A Non-Inverting Amplifier is a closed-loop amplifier configuration in which the input is applied to the non-inverting terminal (+) of the op-amp.
 The output signal is amplified and remains in phase with the input signal.
@@ -31,8 +33,13 @@ The output signal is amplified and remains in phase with the input signal.
 7.	Run simulation.
 8.	Observe input and output waveforms.
 ## Waveform
+<img width="1375" height="874" alt="Screenshot 2026-01-27 133710" src="https://github.com/user-attachments/assets/d798a284-7150-4eda-99c0-b0db5b6332ff" />
+
+
 ## Tabulation
 S.No	Vin (V)	Theoretical Gain	Theoretical Vout (V)	Practical Vout (V)
+<img width="770" height="307" alt="image" src="https://github.com/user-attachments/assets/ed2150b9-94a7-4c02-8994-8b008ae73331" />
+
 ## Result
 The Non-Inverting Amplifier using μA741 Op-Amp was designed and simulated successfully.
 The voltage gain obtained is approximately 11.
@@ -42,9 +49,14 @@ The output waveform is in phase with the input waveform.
 •	Output is amplified without phase reversal.
 •	Practical values are close to theoretical values.
 ## Viva Questions
-1.	What is a Non-Inverting Amplifier?
-2.	What is the gain formula?
-3.	Why is output in phase?
-4.	What happens if Rf increases?
-5.	What is the input impedance of non-inverting amplifier?
+1.	What is a Non-Inverting Amplifier?<br>
+An amplifier where input is applied to the non-inverting terminal and output is in phase with input.<br>
+3.	What is the gain formula?<br>
+Av​=1+R1​Rf​​
+4.	Why is output in phase?<br>
+Because input is applied to the non-inverting terminal.<br>
+5.	What happens if Rf increases?<br>
+Voltage gain increases.<br>
+6.	What is the input impedance of non-inverting amplifier?<br>
+Very high (ideally infinite).<br>
 
